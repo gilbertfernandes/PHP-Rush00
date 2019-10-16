@@ -1,0 +1,144 @@
+body {
+	background-color:  grey;
+}
+.nav_bar {
+	list-style: none;
+	width: 100%;
+	overflow: hidden;
+	background-color: #1A1A1A;
+}
+nav a {
+	display: inline;
+	color: white;
+	padding: 1vw;
+	font-size: 1vw;
+	text-decoration: none;
+}
+
+nav a:hover {
+	background-color: grey;
+}
+.login {
+	float: right;
+}
+.row {
+	display: flex;
+}  
+.column {
+	flex: 16.66%;
+	padding: 5px;
+}
+.header {
+	background-color: #1A1A1A;
+}
+nav {
+	text-align: center;
+}
+.footer {
+	bottom: 0;
+	position: fixed;
+}
+.success {
+	color: green;
+	display: block;
+	background-color: #71f771;
+	width: 100%;
+	padding: 1px 1px 1px 1px;
+	text-align: center;
+}
+.error {
+	display: block;
+	background-color: #e97a7a;
+	width: 100%;
+	color: red;
+	padding: 1px 1px 1px 1px;
+	text-align: center;
+}
+.signup {
+	margin-left: 250px;
+	font-size: 20px;
+}
+.special {
+	text-align: center;
+	font-size: 100px;
+	color: blue;
+	margin-top: auto;
+}
+.specimg {
+	margin-left: 500px;
+	margin-top: -50px;
+}
+th, td {
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+.text-danger {
+	font-size: 20px;
+	color: blue;
+	text-decoration: none;
+}
+th {
+	text-decoration: underline;
+}
+.cart-btn, .checkout-btn {
+	background-color: grey;
+	border-radius: 3px;
+	float: right;
+	font-size: 20px;
+}
+.order {
+	text-align: center;
+	text-decoration: underline;
+	font-size: 30px;
+}
+.logout-btn {
+	color: white;
+	background-color: #1a1a1a;
+	border-radius: 3px;
+	font-size: 15px;
+	vertical-align: top;
+}
+.profile-btn {
+	display: inline-block;
+	color: white;
+	background-color: #1a1a1a;
+	border-radius: 3px;
+	font-size: 15px;
+}
+.total {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.admin-btn {
+	background-color: grey;
+	border-radius: 3px;
+	float: right;
+	font-size: 20px;
+}
+.cartempty {
+	text-align: center;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+table {
+	width: 100%;
+}
+.shop-item {
+	background-color: silver;
+}
+select {
+	display: block;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    width: 10%;
+    max-width: 100%; 
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: .5em;
+    background-color: #fff;
+}
